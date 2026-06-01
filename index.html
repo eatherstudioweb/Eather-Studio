@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eather Studio | Diseño Web Profesional para Emprendedores</title>
+    <meta name="description" content="Creamos páginas web únicas para emprendedores y tiendas locales. Presencia digital profesional con resultados reales.">
+    <meta name="keywords" content="diseño web Bogotá, páginas web económicas, desarrollo web para emprendedores, tiendas online Colombia, landing pages, SEO local, diseño web Colombia">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="icon" href="./imagenes/algo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <img src="./imagenes/algo.png" alt="" class="imglogo">
+                    <span class="logo-text">Eather Studio</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                
+                <a href="index.html" class="nav-link active">
+                    <i class="fas fa-home"></i> Inicio
+                </a>
+                <a href="#services" class="nav-link">
+                    <i class="fas fa-cogs"></i> Servicios
+                </a>
+                <a href="#plans" class="nav-link">
+                    <i class="fas fa-layer-group"></i> Planes
+                </a>
+                <a href="#portfolio" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Portafolio
+                </a>
+                <a href="acerca_de.html" class="nav-link">
+                    <i class="fas fa-users"></i> Acerca de
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i> Contacto
+                </a>
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Cotizar
+                </a>
+                <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            </div>
+            
+            
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero con Carousel de Imágenes Reales -->
+    <section class="hero" id="home">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <!-- Slide 1 - Diseño Web Moderno -->
+                <div class="slide active" data-slide="1">
+                    <div class="slide-content">
+                        <h1 class="hero-title">
+                            <span class="hero-highlight">Presencia Digital</span>
+                            que Convierte
+                        </h1>
+                        <p class="hero-subtitle">
+                            Transformamos tu visión en una página web que no solo se ve bien, 
+                            sino que <strong>genera resultados reales</strong> para tu negocio.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#plans" class="btn btn-primary btn-large">
+                                <i class="fas fa-rocket"></i> Ver Planes
+                            </a>
+                            <a href="#portfolio" class="btn btn-outline btn-large">
+                                <i class="fas fa-eye"></i> Ver Proyectos
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="image-frame">
+                            <img src="./imagenes/metricas.jpg" 
+                                alt="Diseño web moderno para emprendedores" 
+                                class="hero-image">
+                            <div class="image-overlay">
+                                <span class="image-badge">Diseño Moderno</span>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-1">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="floating-element element-3">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 - Landing Page -->
+                <div class="slide" data-slide="2">
+                    <div class="slide-content">
+                        <h1 class="hero-title">
+                            <span class="hero-highlight">Landing Pages que</span> 
+                            <span class="hero-highlight">Venden</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Diseños optimizados para transformar visitantes 
+                            en <strong>clientes reales</strong> desde el primer clic.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary btn-large">
+                                <i class="fas fa-chart-line"></i> Ver Resultados
+                            </a>
+                            <a href="#contact" class="btn btn-outline btn-large">
+                                <i class="fas fa-calendar-check"></i> Agendar Llamada
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="image-frame">
+                            <img src="./imagenes/pagina web.jpg" 
+                                alt="Landing page de alta conversión" 
+                                class="hero-image">
+                            <div class="image-overlay">
+                                <span class="image-badge">+40% Conversiones</span>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-4">
+                                <i class="fas fa-mouse-pointer"></i>
+                            </div>
+                            <div class="floating-element element-5">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="floating-element element-6">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 - E-commerce -->
+                <div class="slide" data-slide="3">
+                    <div class="slide-content">
+                        <h1 class="hero-title">
+                            <span class="hero-highlight">Tiendas Online que </span>
+                            <span class="hero-highlight">Crecen</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            E-commerce simple pero poderoso diseñado específicamente 
+                            para <strong>negocios</strong> como el tuyo.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary btn-large">
+                                <i class="fas fa-store"></i> Ver Tiendas
+                            </a>
+                            <a href="#plans" class="btn btn-outline btn-large">
+                                <i class="fas fa-shopping-cart"></i> Plan E-commerce
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="image-frame">
+                            <img src="./imagenes/ecommerce.jpg" 
+                                alt="Tienda online moderna" 
+                                class="hero-image">
+                            <div class="image-overlay">
+                                <span class="image-badge">E-commerce Simple</span>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-7">
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div class="floating-element element-8">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div class="floating-element element-9">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 4 - Dashboard Profesional -->
+                <div class="slide" data-slide="4">
+                    <div class="slide-content">
+                        <h1 class="hero-title">
+                            <span class="hero-highlight">Resultados Rápidos</span>
+                            Garantizados
+                        </h1>
+                        <p class="hero-subtitle">
+                            Procesos optimizados que te entregan tu sitio web en 
+                            <strong>tiempo récord</strong>, sin sacrificar calidad.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-large">
+                                <i class="fas fa-bolt"></i> Iniciar Proyecto
+                            </a>
+                            <a href="#process" class="btn btn-outline btn-large">
+                                <i class="fas fa-clock"></i> Ver Proceso
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="image-frame">
+                            <img src="./imagenes/codificar.jpg" 
+                                alt="Dashboard profesional" 
+                                class="hero-image">
+                            <div class="image-overlay">
+                                <span class="image-badge">Máxima eficiencia</span>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-10">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <div class="floating-element element-11">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="floating-element element-12">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Controles del Carousel -->
+            <div class="carousel-controls">
+                <button class="carousel-prev" id="carouselPrev" aria-label="Slide anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-dots">
+                    <button class="dot active" data-slide="1" aria-label="Ir al slide 1"></button>
+                    <button class="dot" data-slide="2" aria-label="Ir al slide 2"></button>
+                    <button class="dot" data-slide="3" aria-label="Ir al slide 3"></button>
+                    <button class="dot" data-slide="4" aria-label="Ir al slide 4"></button>
+                </div>
+                <button class="carousel-next" id="carouselNext" aria-label="Siguiente slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        
+        <a href="#services" class="scroll-indicator" aria-label="Desplazarse">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="5">0</h3>
+                        <p class="stat-label">Proyectos Completados</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="5">0</h3>
+                        <p class="stat-label">Clientes Satisfechos</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="99">0</h3>
+                        <p class="stat-label">% Satisfacción</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="72" >0</h3>
+                        <p class="stat-label">Entregas express </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Lo que hacemos</span>
+                <h2 class="section-title">Servicios <span class="highlight">Premium</span></h2>
+                <p class="section-subtitle">Soluciones digitales completas para tu crecimiento</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Landing Pages</h3>
+                        <p>Páginas de conversión optimizadas para transformar visitantes en clientes.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Diseño conversivo</li>
+                            <li><i class="fas fa-check"></i> SEO optimizado</li>
+                            <li><i class="fas fa-check"></i> Formularios inteligentes</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Páginas Web</h3>
+                        <p>Sitios web profesionales y responsivos que reflejan tu identidad de marca.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> Navegación intuitiva</li>
+                            <li><i class="fas fa-check"></i> Optimización móvil</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Tiendas Online</h3>
+                        <p>E-commerce simple pero poderoso para vender tus productos en línea.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Carrito de compras</li>
+                            <li><i class="fas fa-check"></i> Integración WhatsApp</li>
+                            <li><i class="fas fa-check"></i> Panel administrador</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Mantenimiento</h3>
+                        <p>Soporte continuo para que tu sitio siempre funcione perfectamente.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Actualizaciones</li>
+                            <li><i class="fas fa-check"></i> Backups automáticos</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Trabajo -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Cómo trabajamos</span>
+                <h2 class="section-title">Nuestro <span class="highlight">Proceso</span></h2>
+                <p class="section-subtitle">4 pasos simples para tener tu página web</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Consulta</h3>
+                        <p>Analizamos tus necesidades y objetivos para crear la estrategia perfecta.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Diseño</h3>
+                        <p>Creamos un diseño exclusivo que refleje la personalidad de tu marca.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Desarrollo</h3>
+                        <p>Programamos tu sitio web con las últimas tecnologías y mejores prácticas.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Lanzamiento</h3>
+                        <p>Publicamos tu sitio y te capacitamos para que lo manejes con confianza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section class="section plans" id="plans">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Inversión inteligente</span>
+                <h2 class="section-title">Planes <span class="highlight">Personalizados</span></h2>
+                <p class="section-subtitle">Elige el paquete perfecto para tu negocio</p>
+            </div>
+            
+            <div class="plans-grid">
+                <!-- Plan Lite -->
+                <div class="plan-card">
+                    <div class="plan-badge">Más Popular</div>
+                    <div class="plan-header">
+                        <h3>Clicks Lite</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">600</span>
+                            <span class="period">.000</span>
+                        </div>
+                        <p class="plan-description">Perfecto para comenzar</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 5 secciones personalizadas</li>
+                        <li><i class="fas fa-check"></i> Diseño responsivo</li>
+                        <li><i class="fas fa-check"></i> SEO básico</li>
+                        <li><i class="fas fa-check"></i> Galería con efectos</li>
+                        <li><i class="fas fa-check"></i> WhatsApp flotante</li>
+                        <li><i class="fas fa-check"></i> 1 mes de soporte</li>
+                        <li><i class="fas fa-check"></i> Hosting y dominio por 1 año</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-outline plan-btn">
+                        <i class="fas fa-info-circle"></i> Más detalles
+                    </a>
+                </div>
+                
+                <!-- Plan Plus -->
+                <div class="plan-card featured">
+                    <div class="plan-badge">Recomendado</div>
+                    <div class="plan-header">
+                        <h3>Clicks Plus</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">1.200</span>
+                            <span class="period">.000</span>
+                        </div>
+                        <p class="plan-description">Para crecimiento acelerado</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Todo el plan Clicks Lite+</li>
+                        <li><i class="fas fa-check"></i> Hasta 8 secciones</li>
+                        <li><i class="fas fa-check"></i> 2 páginas</li>
+                        <li><i class="fas fa-check"></i> 1 funcionalidad especial</li>
+                        <li><i class="fas fa-check"></i> SEO local avanzado</li>
+                        <li><i class="fas fa-check"></i> Diseño exclusivo de 2 secciones</li>
+                        <li><i class="fas fa-check"></i> 1 meses de soporte</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-primary plan-btn">
+                        <i class="fas fa-bolt"></i> Elegir este plan
+                    </a>
+                </div>
+                
+                <!-- Plan Premium -->
+                <div class="plan-card">
+                    <div class="plan-badge">Premium</div>
+                    <div class="plan-header">
+                        <h3>Clicks Max</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">1.800</span>
+                            <span class="period">.000+</span>
+                        </div>
+                        <p class="plan-description">Solución integral</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Todo el plan Plus +</li>
+                        <li><i class="fas fa-check"></i> Diseño 100% exclusivo</li>
+                        <li><i class="fas fa-check"></i> E-commerce básico</li>
+                        <li><i class="fas fa-check"></i> 5 Correos corporativos</li>
+                        <li><i class="fas fa-check"></i> 2 Meses de soporte</li>
+                        <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-outline plan-btn">
+                        <i class="fas fa-star"></i> Cotizar personalizado
+                    </a>
+                </div>
+            </div>
+            
+            <div class="custom-plan-cta">
+                <div class="cta-content">
+                    <h3>¿Necesitas algo diferente?</h3>
+                    <p>Cuéntanos tu proyecto y creamos un plan a tu medida.</p>
+                </div>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-lightbulb"></i> Plan Personalizado
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestro trabajo</span>
+                <h2 class="section-title">Proyectos <span class="highlight">Destacados</span></h2>
+                <p class="section-subtitle">Una muestra de lo que podemos hacer juntos</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/imagenes/rosten.png" alt="Cafeteria">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-tags">
+                                <span class="tag">Landing Page</span>
+                                <span class="tag">Cafeteria</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Rösten Coffee</h3>
+                        <p>Cafetería que busca llevar su café de especialidad a más clientes mediante galerías y muestras de su catálogo.</p>
+                        <a href="portafolio.html#proyectos-lite" class="portfolio-link">
+                            Ver proyecto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/imagenes/dolcevia.png" alt="Reposteria">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-tags">
+                                <span class="tag">Menú digital</span>
+                                <span class="tag">Reposteria</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>    Dolcevia</h3>
+                        <p>Sitio web interactivo con menu y sistema de citas online.</p>
+                        <a href="portafolio.html#proyectos-lite" class="portfolio-link">
+                            Ver proyecto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/imagenes/reminesi.png" alt="Restaurante">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-tags">
+                                <span class="tag">Restaurante</span>
+                                <span class="tag">Menú Digital</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Restaurante Gourmet</h3>
+                        <p>Menú digital interactivo con reservas online y galería de platos filtrable.</p>
+                        <a href="portafolio.html#proyectos-lite" class="portfolio-link">
+                            Ver proyecto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <a href="portafolio.html#proyectos-lite" class="btn btn-primary">
+                    <i class="fas fa-images"></i> Ver todos los proyectos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonios</span>
+                <h2 class="section-title">Lo que dicen <span class="highlight">nuestros clientes</span></h2>
+                <p class="section-subtitle">Historias reales de emprendedores satisfechos</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <h4>María González</h4>
+                            <p>Dueña - Rösten coffee</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <p>"En un par de dias tenía mi página lista. Mis clientes ahora me encuentran en Google y las ventas aumentaron."</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <h4>Carlos Mendoza</h4>
+                            <p>comerciante Independiente</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <p>"Mi página web superó mis expectativas. Ahora recibo consultas de clientes todas las semanas"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <h4>Ana Rodríguez</h4>
+                            <p>Gerente - Cafetería "Aroma"</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <p>"El sistema de reservas nos ha ayudado a organizar mejor las mesas. Mis clientes aman el menú digital."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-prev" id="testimonialPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                    <button class="dot" data-slide="3"></button>
+                </div>
+                <button class="testimonial-next" id="testimonialNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para transformar tu presencia digital?</h2>
+                <p class="cta-subtitle">Contacta con nosotros hoy mismo y recibe una cotización personalizada</p>
+                
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Solicitar Cotización
+                    </a>
+                    <a href="tel:+573013832317" class="btn btn-outline btn-large">
+                        <i class="fas fa-phone"></i> Llamar Ahora
+                    </a>
+                </div>
+                
+                <div class="cta-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Respuesta en menos de 24 horas</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Cotización sin costo</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Asesoría personalizada</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- ===== NUEVO FOOTER PREMIUM CON FORMULARIO INTERACTIVO ===== -->
+    <footer class="footer-premium" id="contact">
+        
+        <div class="footer-premium-container">
+            <!-- Grid principal -->
+            <div class="footer-premium-grid">
+                <!-- COLUMNA 3: FORMULARIO INTERACTIVO PREMIUM -->
+                <div class="footer-premium-col form-col">
+                    <div class="form-header">
+                        <h3>¿Hablamos de tu proyecto?</h3>
+                        <p>Déjanos tus datos y te contactaremos <strong>en menos de 24 horas</strong></p>
+                    </div>
+                    
+                    <form class="footer-premium-form" id="premiumContactForm" action="https://formspree.io/f/xkozddke" method="POST">
+                        <!-- Campo Nombre con icono flotante -->
+                        <div class="form-field">
+                            <div class="field-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <input type="text" 
+                                id="premiumName" 
+                                name="name" 
+                                required>
+                            <label for="premiumName" class="field-label">Nombre</label>
+                            <div class="field-border"></div>
+                            <div class="field-focus-effect"></div>
+                        </div>
+                        
+                        <!-- Campo Email con icono flotante -->
+                        <div class="form-field">
+                            <div class="field-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <input type="email" 
+                                id="premiumEmail" 
+                                name="email" 
+                                required>
+                            <label for="premiumEmail" class="field-label">Email</label>
+                            <div class="field-border"></div>
+                            <div class="field-focus-effect"></div>
+                        </div>
+                        
+                        <!-- Campo Teléfono con icono flotante -->
+                        <div class="form-field">
+                            <div class="field-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <input type="tel" 
+                                id="premiumPhone" 
+                                name="phone" 
+                                required>  <!-- ← AGREGA required AQUÍ -->
+                            <label for="premiumPhone" class="field-label">Teléfono</label>
+                            <div class="field-border"></div>
+                            <div class="field-focus-effect"></div>
+                        </div>
+                        
+                        <!-- Campo Mensaje con icono flotante -->
+                        <div class="form-field textarea-field">
+                            <div class="field-icon">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <textarea id="premiumMessage" 
+                                    name="message" 
+                                    rows="3" 
+                                    required></textarea>
+                            <label for="premiumMessage" class="field-label">Mensaje</label>
+                            <div class="field-border"></div>
+                            <div class="field-focus-effect"></div>
+                        </div>
+                        
+                        <!-- Botón de envío con efecto -->
+                        <button type="submit" class="premium-submit-btn" id="premiumSubmitBtn">
+                            <span class="btn-text">Enviar Mensaje</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <div class="btn-overlay"></div>
+                        </button>
+                        
+                        <!-- Mensaje de éxito/error -->
+                        <div class="form-feedback" id="premiumFormFeedback"></div>
+                        
+                        <!-- Trust badges -->
+                        <div class="form-trust">
+                            <div class="trust-item">
+                                <i class="fas fa-lock"></i>
+                                <span>Tus datos están seguros</span>
+                            </div>
+                            <div class="trust-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Respuesta en 24h</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- COLUMNA 1: Marca y contacto rápido -->
+                <div class="footer-premium-col brand-col">
+                    <div class="footer-premium-logo">
+                        <img src="./imagenes/algo.png" alt="" class="imglogo" style="background-color: white; border-radius: 5px;">
+                        <span class="logo-text">Eather Studio</span>
+                    </div>
+                    
+                    <p class="footer-premium-tagline">
+                        Tu negocio es único, ¿no merece una página web única?.
+                    </p>
+                    
+                    <div class="footer-premium-contact">
+                        <div class="contact-chip">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+573013832317">+57 301 383 2317</a>
+                        </div>
+                        
+                        <div class="contact-chip">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:eatherstudioweb@gmail.com">eatherstudioweb@gmail.com</a>
+                        </div>
+                        
+                        <div class="contact-chip">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bogotá, Colombia</span>
+                        </div>
+                        
+                        <div class="contact-chip">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun - Vie: 9:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-premium-social">
+                        <h4>Síguenos</h4>
+                        <div class="social-links-premium">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- COLUMNA 2: Enlaces rápidos y servicios -->
+                <div class="footer-premium-col links-col">
+                    <h3>Explora</h3>
+                    <ul class="footer-premium-links">
+                        <li><a href="index.html#home"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="index.html#services"><i class="fas fa-chevron-right"></i> Servicios</a></li>
+                        <li><a href="index.html#plans"><i class="fas fa-chevron-right"></i> Planes</a></li>
+                        <li><a href="index.html#portfolio"><i class="fas fa-chevron-right"></i> Portafolio</a></li>
+                        <li><a href="acerca_de.html"><i class="fas fa-chevron-right"></i> Acerca de</a></li>
+                    </ul>
+                    
+                    <h3 class="mt-4">Servicios</h3>
+                    <ul class="footer-premium-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Landing Pages</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Páginas Web</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Tiendas Online</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mantenimiento</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> SEO Local</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            
+            <!-- Línea de tiempo con stats -->
+            <div class="footer-premium-stats">
+                <div class="stat-badge">
+                    <i class="fas fa-check-circle"></i>
+                    <span>4+ proyectos</span>
+                </div>
+                <div class="stat-badge">
+                    <i class="fas fa-smile"></i>
+                    <span>100% satisfacción</span>
+                </div>
+                <div class="stat-badge">
+                    <i class="fas fa-bolt"></i>
+                    <span>Entrega rápida</span>
+                </div>
+                <div class="stat-badge">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>Soporte cercano</span>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-premium-bottom">
+                <p>&copy; 2026 Eather Studio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Flotante -->
+    <a href="https://wa.me/573013832317?text=Hola%20Eather%20Studio,%20me%20interesa%20saber%20más%20sobre%20sus%20servicios" 
+        class="whatsapp-float" 
+        target="_blank" 
+        aria-label="Chat en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Botón Volver Arriba -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
